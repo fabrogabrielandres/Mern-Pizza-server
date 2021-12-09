@@ -9,7 +9,7 @@ let db = mongoose.connection
 db.on("connected", ()=>{
     console.log("mongodb coneccion successfull");
 })
-console.log("hola server");
+
 db.on("error", ()=>{
     console.log("mongo db conecction failed");
 })
